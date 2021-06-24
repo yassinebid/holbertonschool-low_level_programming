@@ -1,4 +1,3 @@
-
 #include <stdio.h>
 
 /**
@@ -24,7 +23,7 @@ int main(void)
 			printf("Buzz");
 
 		else
-			printf("%d", num);
+			printf("%d", N);
 
 		if (N == 100)
 			continue;
