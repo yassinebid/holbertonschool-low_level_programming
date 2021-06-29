@@ -6,12 +6,12 @@
  */
 void print_rev(char *s)
 {
-	int len = 0, index;
+	int length = 0, index;
 
 	while (s[index++])
-		len++;
+		length++;
 
-	for (index = len - 1; index >= 0; index--)
+	for (index = length - 1; index >= 0; index--)
 		_putchar(s[index]);
 
 	_putchar('\n');
@@ -25,10 +25,10 @@ void print_rev(char *s)
  */
 size_t _strlen(const char *str)
 {
-	size_t length = 0;
+	size_t len = 0;
 
 	while (*str++)
-		length++;
+		len++;
 
-	return (length);
+	return (len);
 }
