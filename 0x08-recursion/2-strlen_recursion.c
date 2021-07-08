@@ -5,6 +5,17 @@
  * @s: The string to get the length of.
  *
  * Return: The length of @s.
+ my way
+{
+	static int i = 0;
+
+    if (*s != '\0')
+    {
+        i++;
+        return _strlen_recursion(++s);
+    }
+    return (i);
+}
  */
 
 
